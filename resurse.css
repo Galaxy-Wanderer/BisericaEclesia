@@ -105,6 +105,7 @@ hr {
         opacity: 1;
         color: white;
         padding-left: 10px;
+        display: none;
     }
     .burger {
         display: block;
