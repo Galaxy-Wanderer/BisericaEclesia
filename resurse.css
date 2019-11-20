@@ -127,4 +127,8 @@ hr {
     header {
         background-size: 280%;
     }
+    .message {
+        margin-top: 100px;
+        font-size: 12px;
+    }
 }
