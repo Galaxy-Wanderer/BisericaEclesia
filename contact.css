@@ -116,6 +116,7 @@ hr {
     }
 }
 .nav-active {
+    display: block;
     transform: translateX(0%);
 }
 @media screen and (max-width: 592px) {
