@@ -110,6 +110,7 @@ hr {
         padding-left: 10px;
         transition: transform 0.5s ease-in;
         border: 2px solid white;
+        display: none;
     }
     .burger {
         display: block;
@@ -119,6 +120,7 @@ hr {
 }
 .nav-active {
     transform: translateX(0%);
+    display: none;
 }
 @media screen and (max-width: 592px) {
     header {
