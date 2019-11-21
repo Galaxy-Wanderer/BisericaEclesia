@@ -100,18 +100,26 @@ hr {
         flex-direction: column;
         text-align: center;
         border-radius: 10px;
-        background-color: black;
+        background-color: rgb(32, 32, 32);
         opacity: 0.8;
         transform: translateX(110%);
-        opacity: 1;
         color: white;
         padding-left: 10px;
-        display: none;
+        transition: transform 0.5s ease-in;
+        border: 2px solid white;
     }
     .burger {
         display: block;
         margin-right: 30px;
         cursor: pointer;
+    }
+}
+.nav-active {
+    transform: translateX(0%);
+}
+@media screen and (max-width: 592px) {
+    header {
+        background-size: 180%;
     }
 }
 @media screen and (max-width: 592px) {
