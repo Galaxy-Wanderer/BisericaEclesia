@@ -119,8 +119,8 @@ hr {
     }
 }
 .nav-active {
-    transform: translateX(0%);
     display: none;
+    transform: translateX(0%);
 }
 @media screen and (max-width: 592px) {
     header {
