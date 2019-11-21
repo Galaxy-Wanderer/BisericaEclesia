@@ -96,9 +96,9 @@ hr {
         position: absolute;
         margin-right: 10px;
         width: 45%;
-        height: 88%;
+        line-height: 80px;
         right: 0px;
-        top: 12%;
+        top: 13%;
         display: flex;
         flex-direction: column;
         text-align: center;
