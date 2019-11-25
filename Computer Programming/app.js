@@ -6,7 +6,7 @@ function searchFunction() {
     div = document.querySelectorAll(".things div")
     for(i=0; i < div.length; i++) {
         a = div[i].getElementsByTagName("a")[0];
-        if(a.innerHTML.toUpperCase().indexOf(filter) >= 0) {
+        if(a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             a.style.display = "";
         } else {
             a.style.display = "none";
